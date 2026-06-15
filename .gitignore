@@ -6,7 +6,7 @@
 
 # config / local files
 config.local
-svcaccount.yaml
+
 
 # models
 models/*.pkl
