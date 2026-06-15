@@ -1,9 +1,13 @@
 """Train churn prediction model"""
+import os
 import pandas as pd
 import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, roc_auc_score
+
+# Ensure models directory exists (IMPORTANT for CI/CD)
+os.makedirs("models", exist_ok=True)
 
 # Load data
 df = pd.read_csv('data/churn_data.csv')
