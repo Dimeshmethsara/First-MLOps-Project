@@ -1,0 +1,10 @@
+/config.local
+svcaccount.yaml
+.venv
+.venv310
+.venv311
+.venv312models/*.pkl
+*.pyc
+__pycache__/
+.dvc/cache
+.dvc/tmp
