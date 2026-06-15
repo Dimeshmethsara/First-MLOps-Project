@@ -1,10 +1,20 @@
-/config.local
+# virtual environments
+.venv/
+.venv310/
+.venv311/
+.venv312/
+
+# config / local files
+config.local
 svcaccount.yaml
-.venv
-.venv310
-.venv311
-.venv312models/*.pkl
+
+# models
+models/*.pkl
+
+# python cache
 *.pyc
 __pycache__/
-.dvc/cache
-.dvc/tmp
+
+# dvc
+.dvc/cache/
+.dvc/tmp/
