@@ -42,3 +42,4 @@ def predict(data: CustomerData):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+#this is a comment added to test the webhook functionality of the github actions
