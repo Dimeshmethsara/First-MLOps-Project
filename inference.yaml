@@ -9,7 +9,7 @@ spec:
       modelFormat:
         name: sklearn
       runtime: kserve-mlserver
-      storageUri: "s3://dimesh-churn-model-demo-bucket/model/"
+      storageUri: "s3://churn-model-bucket-cicd-dimesh/model/model.pkl
       resources:
         requests:
           cpu: "100m"
